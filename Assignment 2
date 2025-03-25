@@ -51,7 +51,6 @@ class SocietyGraph {
     public static void main(String[] args) {
         SocietyGraph society = new SocietyGraph();
         
-        // Example: Adding lanes between houses
         society.addPath(1, 2);
         society.addPath(2, 3);
         society.addPath(3, 4);
